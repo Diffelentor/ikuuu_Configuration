@@ -111,7 +111,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y01",
-            "server": "kf32j-g03.hk01-ae5.entry.v50307shvkaa.art",
+            "server": "cr3wr-g03.hk01-ae5.entry.v50307shvkaa.art",
             "server_port": 19273,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -120,7 +120,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y01 | x0.8",
-            "server": "2i7r9-g03.jp01-ae5.entry.v50307shvkaa.art",
+            "server": "bxe6v-g03.jp01-ae5.entry.v50307shvkaa.art",
             "server_port": 474,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -129,7 +129,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y02 | IEPL",
-            "server": "dsqwx-g03.hk02-ae5.entry.v50307shvkaa.art",
+            "server": "25e16-g03.hk02-ae5.entry.v50307shvkaa.art",
             "server_port": 14561,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -138,7 +138,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y02 | x0.8",
-            "server": "ls8fv-g03.jp02-ae5.entry.v50307shvkaa.art",
+            "server": "luv96-g03.jp02-ae5.entry.v50307shvkaa.art",
             "server_port": 484,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -147,7 +147,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y03 | IEPL",
-            "server": "wp4tz-g03.hk03-ae5.entry.v50307shvkaa.art",
+            "server": "9rpbp-g03.hk03-ae5.entry.v50307shvkaa.art",
             "server_port": 761,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -156,7 +156,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y03 | x0.8",
-            "server": "21wdk-g03.jp03-ae5.entry.v50307shvkaa.art",
+            "server": "m5ejd-g03.jp03-ae5.entry.v50307shvkaa.art",
             "server_port": 489,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -165,7 +165,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y04 | IEPL",
-            "server": "e5uw2-g03.hk04-ae5.entry.v50307shvkaa.art",
+            "server": "pg3be-g03.hk04-ae5.entry.v50307shvkaa.art",
             "server_port": 805,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -174,7 +174,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y04 | x0.8",
-            "server": "nrnln-g03.jp04-ae5.entry.v50307shvkaa.art",
+            "server": "iryfm-g03.jp04-ae5.entry.v50307shvkaa.art",
             "server_port": 494,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -183,7 +183,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y05 | IEPL",
-            "server": "dideo-g03.hk05-ae5.entry.v50307shvkaa.art",
+            "server": "fp0ij-g03.hk05-ae5.entry.v50307shvkaa.art",
             "server_port": 1813,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -192,7 +192,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 日本Y05 | 下载专用 | x0.01",
-            "server": "cfb43-g03.jp05-vm5.entry.rtysjur.quest",
+            "server": "d1vwx-g03.jp05-vm5.entry.rtysjur.quest",
             "server_port": 64656,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -202,7 +202,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y06 | x0.8",
-            "server": "2s8gc-g03.hk06-ae5.entry.v50307shvkaa.art",
+            "server": "qsw8u-g03.hk06-ae5.entry.v50307shvkaa.art",
             "server_port": 1414,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -211,7 +211,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 日本Y06 | 下载专用 | x0.01",
-            "server": "tkts0-g03.jp06-vm5.entry.rtysjur.quest",
+            "server": "tj0qa-g03.jp06-vm5.entry.rtysjur.quest",
             "server_port": 664,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -221,7 +221,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y07 | x0.8",
-            "server": "tv6fj-g03.hk07-ae5.entry.v50307shvkaa.art",
+            "server": "eu1g8-g03.hk07-ae5.entry.v50307shvkaa.art",
             "server_port": 1421,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -230,7 +230,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y07 | x0.8",
-            "server": "c1ktt-g03.jp07-ae5.entry.v50307shvkaa.art",
+            "server": "u5qy9-g03.jp07-ae5.entry.v50307shvkaa.art",
             "server_port": 14006,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -239,7 +239,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇭🇰 香港Y08 | x0.8",
-            "server": "52u5r-g03.hk08-ae5.entry.v50307shvkaa.art",
+            "server": "6y5yd-g03.hk08-ae5.entry.v50307shvkaa.art",
             "server_port": 18644,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -248,7 +248,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y08 | x0.8",
-            "server": "mf9cq-g03.jp08-ae5.entry.v50307shvkaa.art",
+            "server": "6ezqe-g03.jp08-ae5.entry.v50307shvkaa.art",
             "server_port": 12544,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -257,7 +257,7 @@
         {
             "type": "vmess",
             "tag": "🇭🇰 香港Y09 | IEPL",
-            "server": "41l54-g03.hk09-vm5.entry.v50307shvkaa.art",
+            "server": "a1r8w-g03.hk09-vm5.entry.v50307shvkaa.art",
             "server_port": 15266,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -267,7 +267,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y09 | x0.8",
-            "server": "e1mep-g03.jp09-ae5.entry.v50307shvkaa.art",
+            "server": "fu8rr-g03.jp09-ae5.entry.v50307shvkaa.art",
             "server_port": 11159,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -276,7 +276,7 @@
         {
             "type": "vmess",
             "tag": "🇭🇰 香港Y10 | IEPL",
-            "server": "sxlcf-g03.hk10-vm5.entry.v50307shvkaa.art",
+            "server": "45ag4-g03.hk10-vm5.entry.v50307shvkaa.art",
             "server_port": 13484,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -293,7 +293,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y10 | x0.8",
-            "server": "b57xd-g03.jp10-ae5.entry.v50307shvkaa.art",
+            "server": "b0w26-g03.jp10-ae5.entry.v50307shvkaa.art",
             "server_port": 16525,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -302,7 +302,7 @@
         {
             "type": "vmess",
             "tag": "🇭🇰 香港Y11 | IEPL",
-            "server": "git2u-g03.hk11-vm5.entry.v50307shvkaa.art",
+            "server": "pidcc-g03.hk11-vm5.entry.v50307shvkaa.art",
             "server_port": 576,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -319,7 +319,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y11 | x0.8",
-            "server": "1r3ac-g03.jp11-ae5.entry.v50307shvkaa.art",
+            "server": "x2tq3-g03.jp11-ae5.entry.v50307shvkaa.art",
             "server_port": 17742,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -328,7 +328,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇯🇵 日本Y12 | IEPL | 测试",
-            "server": "zq0u7-g03.jp12-ae5.entry.v50307shvkaa.art",
+            "server": "n6i18-g03.jp12-ae5.entry.v50307shvkaa.art",
             "server_port": 499,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -337,7 +337,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇸🇬 新加坡Y01",
-            "server": "2hywy-g03.sg01-ae5.entry.v50307shvkaa.art",
+            "server": "juf9i-g03.sg01-ae5.entry.v50307shvkaa.art",
             "server_port": 20001,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -346,7 +346,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇸🇬 新加坡Y02",
-            "server": "2wez3-g03.sg02-ae5.entry.v50307shvkaa.art",
+            "server": "9zyhv-g03.sg02-ae5.entry.v50307shvkaa.art",
             "server_port": 20076,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -355,7 +355,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇸🇬 新加坡Y03 | IEPL | x2",
-            "server": "bo8u3-g03.sg03-ae5.entry.v50307shvkaa.art",
+            "server": "xvhq7-g03.sg03-ae5.entry.v50307shvkaa.art",
             "server_port": 20081,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -364,7 +364,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇨🇳 台湾Y01 | IEPL | x2",
-            "server": "txd1x-g03.tw01-ae5.entry.v50307shvkaa.art",
+            "server": "w22q9-g03.tw01-ae5.entry.v50307shvkaa.art",
             "server_port": 20006,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -373,7 +373,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇺🇸 美国Y01",
-            "server": "j24gw-g03.us01-ae5.entry.v50307shvkaa.art",
+            "server": "f5w5q-g03.us01-ae5.entry.v50307shvkaa.art",
             "server_port": 20011,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -382,7 +382,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇺🇸 美国Y02",
-            "server": "1pipt-g03.us02-ae5.entry.v50307shvkaa.art",
+            "server": "vlmx8-g03.us02-ae5.entry.v50307shvkaa.art",
             "server_port": 20016,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -391,7 +391,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇬🇧 英国Y01",
-            "server": "o2xva-g03.gb01-ae5.entry.v50307shvkaa.art",
+            "server": "fwl5j-g03.gb01-ae5.entry.v50307shvkaa.art",
             "server_port": 20021,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -400,7 +400,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇦🇷 阿根廷Y01",
-            "server": "avqp6-g03.ar01-ae5.entry.v50307shvkaa.art",
+            "server": "cqqq0-g03.ar01-ae5.entry.v50307shvkaa.art",
             "server_port": 20026,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -409,7 +409,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇷🇺 俄罗斯Y01",
-            "server": "trsi1-g03.ru01-ae5.entry.v50307shvkaa.art",
+            "server": "40t8t-g03.ru01-ae5.entry.v50307shvkaa.art",
             "server_port": 20031,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -418,7 +418,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇹🇷 土耳其Y01",
-            "server": "ah8fu-g03.tr01-ae5.entry.v50307shvkaa.art",
+            "server": "0zdcy-g03.tr01-ae5.entry.v50307shvkaa.art",
             "server_port": 20036,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -427,7 +427,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇰🇷 韩国Y01",
-            "server": "jptpv-g03.kr01-ae5.entry.v50307shvkaa.art",
+            "server": "wijvm-g03.kr01-ae5.entry.v50307shvkaa.art",
             "server_port": 20041,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -436,7 +436,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇮🇳 印度Y01",
-            "server": "1tch0-g03.in01-ae5.entry.v50307shvkaa.art",
+            "server": "91wal-g03.in01-ae5.entry.v50307shvkaa.art",
             "server_port": 20046,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -445,7 +445,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇩🇪 德国Y01",
-            "server": "zuecf-g03.de01-ae5.entry.v50307shvkaa.art",
+            "server": "eeq1g-g03.de01-ae5.entry.v50307shvkaa.art",
             "server_port": 20051,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -454,7 +454,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇨🇦 加拿大Y01",
-            "server": "5339c-g03.ca01-ae5.entry.v50307shvkaa.art",
+            "server": "0o12k-g03.ca01-ae5.entry.v50307shvkaa.art",
             "server_port": 20056,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -463,7 +463,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇦🇺 澳大利亚Y01",
-            "server": "gtl22-g03.au01-ae5.entry.v50307shvkaa.art",
+            "server": "1utgt-g03.au01-ae5.entry.v50307shvkaa.art",
             "server_port": 20061,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -472,7 +472,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇫🇷 法国Y01",
-            "server": "010vj-g03.fr01-ae5.entry.v50307shvkaa.art",
+            "server": "i04bh-g03.fr01-ae5.entry.v50307shvkaa.art",
             "server_port": 20066,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -481,7 +481,7 @@
         {
             "type": "shadowsocks",
             "tag": "🇺🇦 乌克兰Y01",
-            "server": "1sivw-g03.ua01-ae5.entry.v50307shvkaa.art",
+            "server": "vuez9-g03.ua01-ae5.entry.v50307shvkaa.art",
             "server_port": 20071,
             "method": "aes-256-gcm",
             "password": "ae1d720a-76c8-35f0-8051-054cea10640b",
@@ -490,7 +490,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本1-Ver.6",
-            "server": "eajv1-g03.jp01-0986-vm0.entry.fr0307a.art",
+            "server": "ltkp7-g03.jp01-0986-vm0.entry.fr0307a.art",
             "server_port": 21583,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -505,7 +505,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本2-Ver.7",
-            "server": "e4pcb-g03.jp02-9a99-vm0.entry.fr0307a.art",
+            "server": "dbkhj-g03.jp02-9a99-vm0.entry.fr0307a.art",
             "server_port": 11775,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -515,7 +515,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本3-Ver.6",
-            "server": "n031w-g03.jp03-7d22-vm0.entry.fr0307a.art",
+            "server": "moivp-g03.jp03-7d22-vm0.entry.fr0307a.art",
             "server_port": 21583,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -530,7 +530,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本4-Ver.7",
-            "server": "91ul9-g03.jp04-3771-vm0.entry.fr0307a.art",
+            "server": "45yy1-g03.jp04-3771-vm0.entry.fr0307a.art",
             "server_port": 446,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -540,7 +540,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本5-Ver.8",
-            "server": "hiz0q-g03.jp05-6786-vm0.entry.fr0307a.art",
+            "server": "xn5n0-g03.jp05-6786-vm0.entry.fr0307a.art",
             "server_port": 46484,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -550,7 +550,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本6-Ver.7",
-            "server": "mtm5f-g03.jp06-7c5a-vm0.entry.fr0307a.art",
+            "server": "w8d22-g03.jp06-7c5a-vm0.entry.fr0307a.art",
             "server_port": 28785,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,
@@ -565,7 +565,7 @@
         {
             "type": "vmess",
             "tag": "🇯🇵 免费-日本7-Ver.1",
-            "server": "k2m4r-g03.jp07-1f28-vm0.entry.fr0307a.art",
+            "server": "6z10m-g03.jp07-1f28-vm0.entry.fr0307a.art",
             "server_port": 28785,
             "uuid": "ae1d720a-76c8-35f0-8051-054cea10640b",
             "alter_id": 1,

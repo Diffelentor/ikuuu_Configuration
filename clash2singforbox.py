@@ -1,5 +1,5 @@
-rules_clash=["  - DOMAIN","  - DOMAIN-SUFFIX","  - DOMAIN-KEYWORD","  - IP-CIDR","  - PROCESS-NAME","  - GEOIP","  - IP-CIDR6"]
-rules_singforbox=["domain","domain_suffix","domain_keyword","ip_cidr","process_name","geoip","ip_cidr6"]
+rules_clash=["  - DOMAIN","  - DOMAIN-SUFFIX","  - DOMAIN-KEYWORD","  - IP-CIDR","  - PROCESS-NAME","  - GEOIP"]
+rules_singforbox=["domain","domain_suffix","domain_keyword","ip_cidr","process_name","geoip"]
 
 # with open("rules_singforbox.txt","w") as fs:
 fs=open("rules_singforbox.txt","w", encoding='utf-8')

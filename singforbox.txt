@@ -3059,12 +3059,6 @@
                 "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
             },
             {
-                "ip_cidr6": [
-                    "2620:120:e000::/40"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
                 "domain_suffix": [
                     "atom.io"
                 ],
@@ -7553,12 +7547,6 @@
                 "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
             },
             {
-                "ip_cidr6": [
-                    "2620:120:e000::/40"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
                 "process_name": [
                     "GoogleDriveFS.exe"
                 ],
@@ -7765,30 +7753,6 @@
             {
                 "ip_cidr": [
                     "91.108.0.0/16"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:67c:4e8::/48"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23c::/47"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23f::/48"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
-                "ip_cidr6": [
-                    "2a0a:f280::/29"
                 ],
                 "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
             },
@@ -11711,12 +11675,6 @@
                 "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
             },
             {
-                "ip_cidr6": [
-                    "2402:2a80::/32"
-                ],
-                "outbound": "🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix"
-            },
-            {
                 "process_name": [
                     "tv.twitch.android.app"
                 ],
@@ -12535,24 +12493,6 @@
             {
                 "ip_cidr": [
                     "149.154.160.0/20"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:67c:4e8::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23d::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23f::/48"
                 ],
                 "outbound": "🔰 选择节点"
             },
@@ -16723,24 +16663,6 @@
             {
                 "ip_cidr": [
                     "149.154.160.0/20"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:67c:4e8::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23d::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23f::/48"
                 ],
                 "outbound": "🔰 选择节点"
             },
@@ -54275,24 +54197,6 @@
                 "outbound": "🔰 选择节点"
             },
             {
-                "ip_cidr6": [
-                    "2001:67c:4e8::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23d::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
-                "ip_cidr6": [
-                    "2001:b28:f23f::/48"
-                ],
-                "outbound": "🔰 选择节点"
-            },
-            {
                 "domain_suffix": [
                     "terabox.com"
                 ],
@@ -57193,30 +57097,6 @@
             {
                 "ip_cidr": [
                     "221.226.128.146/32"
-                ],
-                "outbound": "🇨🇳 国内网站"
-            },
-            {
-                "ip_cidr6": [
-                    "2a0b:b580::/48"
-                ],
-                "outbound": "🇨🇳 国内网站"
-            },
-            {
-                "ip_cidr6": [
-                    "2a0b:b581::/48"
-                ],
-                "outbound": "🇨🇳 国内网站"
-            },
-            {
-                "ip_cidr6": [
-                    "2a0b:b582::/48"
-                ],
-                "outbound": "🇨🇳 国内网站"
-            },
-            {
-                "ip_cidr6": [
-                    "2a0b:b583::/48"
                 ],
                 "outbound": "🇨🇳 国内网站"
             },
@@ -68821,30 +68701,6 @@
             {
                 "ip_cidr": [
                     "100.64.0.0/10"
-                ],
-                "outbound": "DIRECT"
-            },
-            {
-                "ip_cidr6": [
-                    "::1/128"
-                ],
-                "outbound": "DIRECT"
-            },
-            {
-                "ip_cidr6": [
-                    "fc00::/7"
-                ],
-                "outbound": "DIRECT"
-            },
-            {
-                "ip_cidr6": [
-                    "fe80::/10"
-                ],
-                "outbound": "DIRECT"
-            },
-            {
-                "ip_cidr6": [
-                    "fd00::/8"
                 ],
                 "outbound": "DIRECT"
             },

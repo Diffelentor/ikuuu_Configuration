@@ -54724,6 +54724,162 @@
                 ],
                 "outbound": "🔰 选择节点"
             },
+            {
+                "domain": [
+                    "app.adjust.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "googletraveladservices.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "dl.google.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "mtalk.google.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "livew.l.qq.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "vd.l.qq.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "analytics.strava.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "msg.umeng.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "msg.umengcloud.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "13th.tech"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "423down.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "bokecc.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "chaipip.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "chinaplay.store"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "hrtsea.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "kaikeba.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "laomo.me"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "mpyit.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "msftconnecttest.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "msftncsi.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qupu123.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "pdfwifi.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zhenguanyu.biz"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zhenguanyu.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "snapdrop.net"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "tebex.io"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
                        {
                 "geoip": "cn",
                 "outbound": "🇨🇳 国内网站"

@@ -55000,8 +55000,181 @@
                 ],
                 "outbound": "🇨🇳 国内网站"
             },
-            
-                       {
+            {
+                "domain_suffix": [
+                    "360.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "360kuai.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "360safe.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "dhrest.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qhres.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qhstatic.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qhupdate.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "so.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "4399.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "4399pk.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "5054399.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "img4399.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "58.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "1688.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliapp.org"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alibaba.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alibabacloud.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alibabausercontent.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alicdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alicloudccp.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliexpress.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliimg.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alikunlun.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alipay.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alipayobjects.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "alisoft.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliyun.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliyuncdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "aliyuncs.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+                                  {
                 "geoip": "cn",
                 "outbound": "🇨🇳 国内网站"
             }

@@ -56518,6 +56518,336 @@
                 ],
                 "outbound": "🇨🇳 国内网站"
             },
+            {
+                "domain": [
+                    "dl.steam.clngaa.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "dl.steam.ksyna.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "st.dl.bscstorage.net"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "st.dl.eccdnx.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "st.dl.pinyuncloud.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "xz.pphimalayanrt.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "steampipe.steamcontent.tnkjmec.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "steampowered.com.8686c.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain": [
+                    "steamstatic.com.8686c.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "foxmail.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "gtimg.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "idqqimg.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "igamecj.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "myapp.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "myqcloud.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qq.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qqmail.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "qqurl.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "smtcdns.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "smtcdns.net"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "soso.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "tencent-cloud.net"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "tencent.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "tencentmind.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "tenpay.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "wechat.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "weixin.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "weiyun.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "appsimg.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "appvipshop.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "vip.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "vipstatic.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "ximalaya.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "xmcdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "00cdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "88cdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "kanimg.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "kankan.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "p2cdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "sandai.net"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "thundercdn.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "xunlei.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "got001.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "p4pfile.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "rrys.tv"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "rrys2020.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "yyets.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zimuzu.io"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zimuzu.tv"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmz001.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmz002.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmz003.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmz004.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmz2019.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "zmzapi.com"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
             
             
                        {

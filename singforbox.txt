@@ -54880,6 +54880,30 @@
                 ],
                 "outbound": "🇨🇳 国内网站"
             },
+            {
+                "domain_suffix": [
+                    "cn"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "xn--fiqs8s"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "xn--55qx5d"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
+            {
+                "domain_suffix": [
+                    "xn--io0a7i"
+                ],
+                "outbound": "🇨🇳 国内网站"
+            },
                        {
                 "geoip": "cn",
                 "outbound": "🇨🇳 国内网站"

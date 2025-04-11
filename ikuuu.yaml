@@ -1,11 +1,16 @@
 https://4eumf.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3&extend=1
 
 # Profile Enhancement Merge Template for Clash Verge
+# dns:
+#   direct-nameserver:
+#     # - '192.168.1.1'
+#     - '172.19.2.1'
+#     - '*.seu.edu.cn'
+#   direct-nameserver-follow-policy: false
 
-hosts:
-  time.facebook.com: 17.253.84.125
-  time.android.com: 17.253.84.125
-  seu.edu.cn: 172.19.2.1
+dns:
+  nameserver-policy:
+    '*seu.edu.cn': '172.19.2.1'
 
 proxy-groups:
   - name: 🔰 选择节点
@@ -173,7 +178,7 @@ proxy-groups:
     - 🇦🇺 澳大利亚Y01
     - 🇫🇷 法国Y01
     - 🇺🇦 乌克兰Y01
-  - name: 🔍 科研
+  - name: 🔍 科研&Rust
     type: select
     proxies:
     - DIRECT
@@ -643,7 +648,7 @@ rules:
   - DOMAIN-SUFFIX,chat.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live-trace.bilibili.com,🇨🇳 国内网站
-  - DOMAIN,api.oopz.cn,🔊 OOPZ
+  - DOMAIN-SUFFIX,gateway.oopz.cn,🔊 OOPZ
   # - PROCESS-NAME,oopz.exe,🔊 OOPZ
   - DOMAIN-SUFFIX,cbhfox.com,🐝蜜柑&Anime
   - DOMAIN,mikanani.me,🐝蜜柑&Anime
@@ -695,14 +700,17 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,📺 动画疯
   - DOMAIN-SUFFIX,bahamut.com.tw,📺 动画疯
   - DOMAIN-SUFFIX,gamer.com.tw,📺 动画疯
-  - DOMAIN-SUFFIX,download.pytorch.org,🔍 科研
-  - DOMAIN-KEYWORD,acm,🔍 科研
-  - DOMAIN-KEYWORD,ieee,🔍 科研
-  - DOMAIN-KEYWORD,arxiv,🔍 科研
-  - DOMAIN-KEYWORD,thecvf,🔍 科研
+  - DOMAIN-SUFFIX,download.pytorch.org,🔍 科研&Rust
+  - DOMAIN-SUFFIX,wandb.ai,🔍 科研&Rust
+  - DOMAIN-KEYWORD,acm,🔍 科研&Rust
+  - DOMAIN-KEYWORD,ieee,🔍 科研&Rust
+  - DOMAIN-KEYWORD,arxiv,🔍 科研&Rust
+  - DOMAIN-KEYWORD,thecvf,🔍 科研&Rust
   - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT
   - DOMAIN-SUFFIX,openai.com,🔍 GPT
-  - DOMAIN-SUFFIX,huggingface.co,🔍 科研
+  - DOMAIN-SUFFIX,huggingface.co,🔍 科研&Rust
+  - DOMAIN-SUFFIX,crates.io,🔍 科研&Rust
+  - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bitsearch.to,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -966,6 +974,7 @@ rules:
   - DOMAIN-SUFFIX,repo.new,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,thegithubshop.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,github,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-KEYWORD,git,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN,voice.telephony.goog,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,0emm.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,1e100.net,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -2426,6 +2435,8 @@ rules:
   - DOMAIN-SUFFIX,ehgt.org,🔰 选择节点
   - DOMAIN-SUFFIX,forums.e-hentai.org,🔰 选择节点
   - DOMAIN-SUFFIX,steamserver.net,🎮 Steam 登录/下载
+  - DOMAIN-SUFFIX,api.palworldgame.com,🎮 Steam 登录/下载
+  - DOMAIN-SUFFIX,store.steampowered.com,🎮 Steam 登录/下载
   - DOMAIN-SUFFIX,cm.steampowered.com,🎮 Steam 登录/下载
   - DOMAIN-SUFFIX,battlebreakers.com,🎮 Epic
   - DOMAIN-SUFFIX,eac-cdn.com,🎮 Epic

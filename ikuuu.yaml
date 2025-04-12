@@ -1,5 +1,3 @@
-https://4eumf.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3&extend=1
-
 # Profile Enhancement Merge Template for Clash Verge
 # dns:
 #   direct-nameserver:
@@ -10,7 +8,8 @@ https://4eumf.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3&extend=1
 
 dns:
   nameserver-policy:
-    '*seu.edu.cn': '172.19.2.1'
+    '*.seu.edu.cn': '172.19.2.1'
+    'seu.edu.cn': '172.19.2.1'
 
 proxy-groups:
   - name: 🔰 选择节点

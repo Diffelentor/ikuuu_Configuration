@@ -1,10 +1,4 @@
-# Profile Enhancement Merge Template for Clash Verge
-# dns:
-#   direct-nameserver:
-#     # - '192.168.1.1'
-#     - '172.19.2.1'
-#     - '*.seu.edu.cn'
-#   direct-nameserver-follow-policy: false
+https://4eumf.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3&extend=1
 
 dns:
   nameserver-policy:
@@ -221,7 +215,7 @@ proxy-groups:
     - 🇦🇺 澳大利亚Y01
     - 🇫🇷 法国Y01
     - 🇺🇦 乌克兰Y01
-  - name: 🔍 GPT
+  - name: 🔍 GPT&Grok&Gemini
     type: select
     proxies:
     - DIRECT
@@ -648,6 +642,7 @@ rules:
   - DOMAIN-SUFFIX,live.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live-trace.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,gateway.oopz.cn,🔊 OOPZ
+  - DOMAIN-SUFFIX,gateway1.oopz.cn,🔊 OOPZ
   # - PROCESS-NAME,oopz.exe,🔊 OOPZ
   - DOMAIN-SUFFIX,cbhfox.com,🐝蜜柑&Anime
   - DOMAIN,mikanani.me,🐝蜜柑&Anime
@@ -705,8 +700,11 @@ rules:
   - DOMAIN-KEYWORD,ieee,🔍 科研&Rust
   - DOMAIN-KEYWORD,arxiv,🔍 科研&Rust
   - DOMAIN-KEYWORD,thecvf,🔍 科研&Rust
-  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT
-  - DOMAIN-SUFFIX,openai.com,🔍 GPT
+  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT&Grok&Gemini
+  - DOMAIN-SUFFIX,openai.com,🔍 GPT&Grok&Gemini
+  - DOMAIN-SUFFIX,grok.com,🔍 GPT&Grok&Gemini
+  - DOMAIN-SUFFIX,x.ai,🔍 GPT&Grok&Gemini
+  - DOMAIN-SUFFIX,gemini.google.com,🔍 GPT&Grok&Gemini
   - DOMAIN-SUFFIX,huggingface.co,🔍 科研&Rust
   - DOMAIN-SUFFIX,crates.io,🔍 科研&Rust
   - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust

@@ -1,4 +1,5 @@
-https://4eumf.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3&extend=1
+# Profile Enhancement Merge Template for Clash Verge
+# https://gl8ag.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3
 
 dns:
   nameserver-policy:
@@ -31,7 +32,6 @@ proxy-groups:
       - 🇯🇵 日本Y10 | x0.8
       - 🇭🇰 香港Y11 | IEPL
       - 🇯🇵 日本Y11 | x0.8
-      - 🇯🇵 日本Y12 | IEPL | 测试
       - 🇸🇬 新加坡Y01
       - 🇸🇬 新加坡Y02
       - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -42,7 +42,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯Y01
       - 🇹🇷 土耳其Y01
       - 🇰🇷 韩国Y01
-      - 🇮🇳 印度Y01
       - 🇩🇪 德国Y01
       - 🇨🇦 加拿大Y01
       - 🇦🇺 澳大利亚Y01
@@ -154,7 +153,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -165,13 +163,12 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
     - 🇫🇷 法国Y01
     - 🇺🇦 乌克兰Y01
-  - name: 🔍 科研&Rust
+  - name: 🔍 科研&Rust&Jetbrains&Debian&Conda
     type: select
     proxies:
     - DIRECT
@@ -198,7 +195,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -209,13 +205,12 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
     - 🇫🇷 法国Y01
     - 🇺🇦 乌克兰Y01
-  - name: 🔍 GPT&Grok&Gemini
+  - name: 🔍 GPT&Grok&Gemini&Dify
     type: select
     proxies:
     - DIRECT
@@ -242,7 +237,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -253,7 +247,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -292,7 +285,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -303,7 +295,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -336,7 +327,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -347,7 +337,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -380,7 +369,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -391,7 +379,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -424,7 +411,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -435,7 +421,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -505,7 +490,6 @@ proxy-groups:
     - 🇯🇵 日本Y09 | x0.8
     - 🇯🇵 日本Y10 | x0.8
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇭🇰 香港Y01
     - 🇭🇰 香港Y02 | IEPL
     - 🇭🇰 香港Y03 | IEPL
@@ -527,7 +511,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -549,7 +532,6 @@ proxy-groups:
     - 🇯🇵 日本Y09 | x0.8
     - 🇯🇵 日本Y10 | x0.8
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇭🇰 香港Y01
     - 🇭🇰 香港Y02 | IEPL
     - 🇭🇰 香港Y03 | IEPL
@@ -571,7 +553,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -615,7 +596,6 @@ proxy-groups:
     - 🇯🇵 日本Y10 | x0.8
     - 🇭🇰 香港Y11 | IEPL
     - 🇯🇵 日本Y11 | x0.8
-    - 🇯🇵 日本Y12 | IEPL | 测试
     - 🇸🇬 新加坡Y01
     - 🇸🇬 新加坡Y02
     - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -626,7 +606,6 @@ proxy-groups:
     - 🇷🇺 俄罗斯Y01
     - 🇹🇷 土耳其Y01
     - 🇰🇷 韩国Y01
-    - 🇮🇳 印度Y01
     - 🇩🇪 德国Y01
     - 🇨🇦 加拿大Y01
     - 🇦🇺 澳大利亚Y01
@@ -694,20 +673,28 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,📺 动画疯
   - DOMAIN-SUFFIX,bahamut.com.tw,📺 动画疯
   - DOMAIN-SUFFIX,gamer.com.tw,📺 动画疯
-  - DOMAIN-SUFFIX,download.pytorch.org,🔍 科研&Rust
-  - DOMAIN-SUFFIX,wandb.ai,🔍 科研&Rust
-  - DOMAIN-KEYWORD,acm,🔍 科研&Rust
-  - DOMAIN-KEYWORD,ieee,🔍 科研&Rust
-  - DOMAIN-KEYWORD,arxiv,🔍 科研&Rust
-  - DOMAIN-KEYWORD,thecvf,🔍 科研&Rust
-  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT&Grok&Gemini
-  - DOMAIN-SUFFIX,openai.com,🔍 GPT&Grok&Gemini
-  - DOMAIN-SUFFIX,grok.com,🔍 GPT&Grok&Gemini
-  - DOMAIN-SUFFIX,x.ai,🔍 GPT&Grok&Gemini
-  - DOMAIN-SUFFIX,gemini.google.com,🔍 GPT&Grok&Gemini
-  - DOMAIN-SUFFIX,huggingface.co,🔍 科研&Rust
-  - DOMAIN-SUFFIX,crates.io,🔍 科研&Rust
-  - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust
+  - DOMAIN-SUFFIX,download.pytorch.org,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,wandb.ai,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,acm,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,ieee,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,arxiv,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,thecvf,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,z-library,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,openai.com,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,grok.com,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,x.ai,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,gemini.google.com,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-KEYWORD,dify,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,huggingface.co,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,crates.io,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,jetbrains,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,debian,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,conda,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,torch,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,nvidia,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bitsearch.to,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -971,6 +958,7 @@ rules:
   - DOMAIN-SUFFIX,repo.new,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,thegithubshop.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,github,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,gitee.com,🇨🇳 国内网站
   - DOMAIN-KEYWORD,git,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN,voice.telephony.goog,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,0emm.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix

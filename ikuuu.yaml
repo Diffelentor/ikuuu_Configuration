@@ -1,6 +1,8 @@
 # Profile Enhancement Merge Template for Clash Verge
 # https://gl8ag.no-mad-world.club/link/AXifcO4UgnRIMRa4?clash=3
 
+# Profile Enhancement Merge Template for Clash Verge
+
 dns:
   nameserver-policy:
     '*.seu.edu.cn': '172.19.2.1'
@@ -9,15 +11,15 @@ dns:
 proxy-groups:
   - name: 🔰 选择节点
     type: select
-    proxies:
+    proxies:     
       - 🇭🇰 香港Y01
-      - 🇯🇵 日本Y01 | x0.8
+      - 🇯🇵 日本Y01
       - 🇭🇰 香港Y02 | IEPL
-      - 🇯🇵 日本Y02 | x0.8
+      - 🇯🇵 日本Y02 | IEPL
       - 🇭🇰 香港Y03 | IEPL
-      - 🇯🇵 日本Y03 | x0.8
+      - 🇯🇵 日本Y03 | IEPL
       - 🇭🇰 香港Y04 | IEPL
-      - 🇯🇵 日本Y04 | x0.8
+      - 🇯🇵 日本Y04 | IEPL
       - 🇭🇰 香港Y05 | IEPL
       - 🇯🇵 日本Y05 | 下载专用 | x0.01
       - 🇭🇰 香港Y06 | x0.8
@@ -27,11 +29,11 @@ proxy-groups:
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
-      - 🇯🇵 日本Y09 | x0.8
+      - 🇯🇵 日本Y09 | IEPL
       - 🇭🇰 香港Y10 | IEPL
-      - 🇯🇵 日本Y10 | x0.8
+      - 🇯🇵 日本Y10 | IEPL
       - 🇭🇰 香港Y11 | IEPL
-      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y11 | IEPL
       - 🇸🇬 新加坡Y01
       - 🇸🇬 新加坡Y02
       - 🇸🇬 新加坡Y03 | IEPL | x2
@@ -39,9 +41,11 @@ proxy-groups:
       - 🇺🇲 美国Y01
       - 🇺🇲 美国Y02
       - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
       - 🇷🇺 俄罗斯Y01
       - 🇹🇷 土耳其Y01
       - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
       - 🇩🇪 德国Y01
       - 🇨🇦 加拿大Y01
       - 🇦🇺 澳大利亚Y01
@@ -51,566 +55,587 @@ proxy-groups:
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
-    - DIRECT
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇨🇳 台湾Y01 | IEPL | x2
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇨🇳 台湾Y01 | IEPL | x2
   - name: 🐝蜜柑&Anime
     type: select
     proxies:
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇨🇳 台湾Y01 | IEPL | x2   
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇨🇳 台湾Y01 | IEPL | x2   
   - name: 🐝 H
     type: select
     proxies:
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇨🇳 台湾Y01 | IEPL | x2
   - name: 🔊 OOPZ
     type: select
     proxies:
-    - DIRECT
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇨🇳 台湾Y01 | IEPL | x2
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇨🇳 台湾Y01 | IEPL | x2
   - name: 🎮 生死狙击2
     type: select
     proxies:
-    - DIRECT
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇨🇳 台湾Y01 | IEPL | x2
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇨🇳 台湾Y01 | IEPL | x2
   - name: 🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🔍 科研&Rust&Jetbrains&Debian&Conda
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🔍 GPT&Grok&Gemini&Dify
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 📺 动画疯
     type: select
     proxies:
-    - 🔰 选择节点
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - DIRECT
+      - 🔰 选择节点
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - DIRECT
   - name: 🎮 Steam 登录/下载
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🎮 Steam 商店/社区
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🎮 Epic
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🎮 Parsec
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🌩️ Cloudflare
     type: select
     proxies:
-    - 🔰 选择节点
-    - DIRECT
-  # - name: 🧲 Magnet
-  #   type: select
-  #   proxies:
-  #   - 🔰 选择节点
-  #   - DIRECT
-  #   - 🇯🇵 日本Y01 | x0.8
-  #   - 🇯🇵 日本Y02 | x0.8
-  #   - 🇯🇵 日本Y03 | x0.8
-  #   - 🇯🇵 日本Y04 | x0.8
-  #   - 🇯🇵 日本Y05 | 下载专用 | x0.01
-  #   - 🇯🇵 日本Y06 | 下载专用 | x0.01
-  #   - 🇯🇵 日本Y07 | x0.8
-  #   - 🇯🇵 日本Y08 | x0.8
-  #   - 🇯🇵 日本Y09 | x0.8
-  #   - 🇯🇵 日本Y10 | x0.8
-  #   - 🇯🇵 日本Y11 | x0.8
-  #   - 🇯🇵 日本Y12 | IEPL | 测试
-  #   - 🇭🇰 香港Y01
-  #   - 🇭🇰 香港Y02 | IEPL
-  #   - 🇭🇰 香港Y03 | IEPL
-  #   - 🇭🇰 香港Y04 | IEPL
-  #   - 🇭🇰 香港Y05 | IEPL
-  #   - 🇭🇰 香港Y06 | x0.8
-  #   - 🇭🇰 香港Y07 | x0.8
-  #   - 🇭🇰 香港Y08 | x0.8
-  #   - 🇭🇰 香港Y09 | IEPL
-  #   - 🇭🇰 香港Y10 | IEPL
-  #   - 🇭🇰 香港Y11 | IEPL
-  #   - 🇸🇬 新加坡Y01
-  #   - 🇸🇬 新加坡Y02
-  #   - 🇨🇳 台湾Y01 | IEPL | x2
-  #   - 🇺🇲 美国Y01
-  #   - 🇺🇲 美国Y02
-  #   - 🇬🇧 英国Y01
-  #   - 🇷🇺 俄罗斯Y01
-  #   - 🇹🇷 土耳其Y01
-  #   - 🇰🇷 韩国Y01
-  #   - 🇮🇳 印度Y01
-  #   - 🇩🇪 德国Y01
-  #   - 🇨🇦 加拿大Y01
-  #   - 🇦🇺 澳大利亚Y01
-  #   - 🇫🇷 法国Y01
-  #   - 🇺🇦 乌克兰Y01
+      - 🔰 选择节点
+      - DIRECT
+  - name: 🧲 Magnet
+    type: select
+    proxies:
+      - 🔰 选择节点
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: ☁️ PikPak
     type: select
     proxies:
-    - 🔰 选择节点
-    - DIRECT
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - 🔰 选择节点
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: ☁️ OneDrive
     type: select
     proxies:
-    - 🔰 选择节点
-    - DIRECT
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇭🇰 香港Y01
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - 🔰 选择节点
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🇨🇳 国内网站
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
+      - DIRECT
+      - 🔰 选择节点
   - name: 🛑 拦截广告
     type: select
     proxies:
-    - REJECT
-    - DIRECT
-    - 🔰 选择节点
+      - REJECT
+      - DIRECT
+      - 🔰 选择节点
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-    - DIRECT
-    - 🔰 选择节点
-    - 🇭🇰 香港Y01
-    - 🇯🇵 日本Y01 | x0.8
-    - 🇭🇰 香港Y02 | IEPL
-    - 🇯🇵 日本Y02 | x0.8
-    - 🇭🇰 香港Y03 | IEPL
-    - 🇯🇵 日本Y03 | x0.8
-    - 🇭🇰 香港Y04 | IEPL
-    - 🇯🇵 日本Y04 | x0.8
-    - 🇭🇰 香港Y05 | IEPL
-    - 🇯🇵 日本Y05 | 下载专用 | x0.01
-    - 🇭🇰 香港Y06 | x0.8
-    - 🇯🇵 日本Y06 | 下载专用 | x0.01
-    - 🇭🇰 香港Y07 | x0.8
-    - 🇯🇵 日本Y07 | x0.8
-    - 🇭🇰 香港Y08 | x0.8
-    - 🇯🇵 日本Y08 | x0.8
-    - 🇭🇰 香港Y09 | IEPL
-    - 🇯🇵 日本Y09 | x0.8
-    - 🇭🇰 香港Y10 | IEPL
-    - 🇯🇵 日本Y10 | x0.8
-    - 🇭🇰 香港Y11 | IEPL
-    - 🇯🇵 日本Y11 | x0.8
-    - 🇸🇬 新加坡Y01
-    - 🇸🇬 新加坡Y02
-    - 🇸🇬 新加坡Y03 | IEPL | x2
-    - 🇨🇳 台湾Y01 | IEPL | x2
-    - 🇺🇲 美国Y01
-    - 🇺🇲 美国Y02
-    - 🇬🇧 英国Y01
-    - 🇷🇺 俄罗斯Y01
-    - 🇹🇷 土耳其Y01
-    - 🇰🇷 韩国Y01
-    - 🇩🇪 德国Y01
-    - 🇨🇦 加拿大Y01
-    - 🇦🇺 澳大利亚Y01
-    - 🇫🇷 法国Y01
-    - 🇺🇦 乌克兰Y01
+      - DIRECT
+      - 🔰 选择节点
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
 rules:
   - DOMAIN,ssjj2-micro.ssjj.cn,🎮 生死狙击2
   - DOMAIN,log.ssjj.cn,🎮 生死狙击2
@@ -631,6 +656,8 @@ rules:
   - DOMAIN-SUFFIX,ntdm9.com,🐝蜜柑&Anime
   - DOMAIN,gugufan.com,🐝蜜柑&Anime
   - DOMAIN,danmu.yhdmjx.com,🐝蜜柑&Anime
+  - DOMAIN-KEYWORD,moegirl,🐝蜜柑&Anime
+  - DOMAIN-KEYWORD,torrent,🐝蜜柑&Anime
   # - DOMAIN-KEYWORD,akamaized,🐝蜜柑&Anime
   - DOMAIN-SUFFIX,pornhub.com,🐝 H
   - DOMAIN-SUFFIX,hanime1.me,🐝 H
@@ -644,6 +671,14 @@ rules:
   - DOMAIN-SUFFIX,picacomic.com,🐝 H
   - DOMAIN-SUFFIX,picacomic.xyz,🐝 H
   - DOMAIN-SUFFIX,wikawika.xyz,🐝 H
+  - DOMAIN-KEYWORD,jrants,🐝 H
+  - DOMAIN-KEYWORD,misskon,🐝 H
+  - DOMAIN-SUFFIX,ggbases.com,🐝 H
+  - DOMAIN-SUFFIX,asmrgay.com,🐝 H
+  - DOMAIN-SUFFIX,2dfan.com,🐝 H
+  - DOMAIN-SUFFIX,seiya-saiga.com,🐝 H
+  - DOMAIN-SUFFIX,dlgal.com,🐝 H
+  
   - DOMAIN,app.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,grpc.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,p-bstarstatic.akamaized.net,🌏 爱奇艺&哔哩哔哩
@@ -692,18 +727,15 @@ rules:
   - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,jetbrains,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,debian,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,ubuntu,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,conda,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,torch,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,nvidia,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,usenix,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bitsearch.to,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,btdig.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-SUFFIX,2dfan.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-SUFFIX,seiya-saiga.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-SUFFIX,dlgal.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-SUFFIX,ggbases.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-SUFFIX,asmrgay.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,nexus,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,booth.pm,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,fanbox.cc,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -716,19 +748,20 @@ rules:
   - DOMAIN-KEYWORD,north,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,south,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,ikuuu,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-KEYWORD,jrants,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
-  - DOMAIN-KEYWORD,misskon,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN,p16-tiktokcdn-com.akamaized.net,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN,trae-api-sg.mchost.guru,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bytedapm.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bytegecko-i18n.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,byteintlapi.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,byteoversea.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,capcut.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,ibytedtos.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,ibyteimg.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,ipstatp.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,isnssdk.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,marscode.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,muscdn.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,musical.ly,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,sgpstatp.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -742,6 +775,8 @@ rules:
   - DOMAIN-SUFFIX,tiktokmusic.app,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,tiktokv.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,tiktokv.us,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,trae.ai,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,ttwebview.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,musical.ly,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,tiktok,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - PROCESS-NAME,com.zhiliaoapp.musically,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -2476,6 +2511,8 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com,🎮 Steam 商店/社区
   - DOMAIN-SUFFIX,underlords.com,🎮 Steam 商店/社区
   - DOMAIN-SUFFIX,valvesoftware.com,🎮 Steam 商店/社区
+  
+  - PROCESS-NAME,qbittorrent.exe,🧲 Magnet
   # - DOMAIN-SUFFIX,00cdn.com,🧲 Magnet
   # - DOMAIN-SUFFIX,155.com,🧲 Magnet
   # - DOMAIN-SUFFIX,2sonar.com,🧲 Magnet

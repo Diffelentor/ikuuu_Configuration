@@ -720,6 +720,7 @@ rules:
   - DOMAIN-KEYWORD,torch,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,nvidia,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,usenix,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,firefox,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,bitsearch.to,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix

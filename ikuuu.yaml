@@ -25,6 +25,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -147,6 +148,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -190,6 +192,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -233,6 +236,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -282,6 +286,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -325,6 +330,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -368,6 +374,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -411,6 +418,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -459,6 +467,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -502,6 +511,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -545,6 +555,51 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+  - name: 🇯🇵 日本网站
+    type: select
+    proxies:
+      - 🔰 选择节点
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -599,6 +654,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -628,8 +684,9 @@ rules:
   - DOMAIN,ssjj2-micro.ssjj.cn,🎮 生死狙击2
   - DOMAIN,log.ssjj.cn,🎮 生死狙击2
   - DOMAIN,u.ssjj.cn,🎮 生死狙击2
+  - PROCESS-NAME,parsec.exe,🎮 Parsec
+  - DOMAIN-SUFFIX,parsec.app,🎮 Parsec
   - DOMAIN-KEYWORD,parsec,🎮 Parsec
-  # - PROCESS-NAME,parsecd.exe,🎮 Parsec
   - DOMAIN-SUFFIX,chat.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live-trace.bilibili.com,🇨🇳 国内网站
@@ -666,7 +723,9 @@ rules:
   - DOMAIN-SUFFIX,2dfan.com,🐝 H
   - DOMAIN-SUFFIX,seiya-saiga.com,🐝 H
   - DOMAIN-SUFFIX,dlgal.com,🐝 H
-  
+  - DOMAIN-SUFFIX,18comic.vip,🐝 H
+  - DOMAIN-KEYWORD,dmm,🇯🇵 日本网站
+  - DOMAIN-KEYWORD,dlsoft,🇯🇵 日本网站
   - DOMAIN,app.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,grpc.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,p-bstarstatic.akamaized.net,🌏 爱奇艺&哔哩哔哩
@@ -720,6 +779,26 @@ rules:
   - DOMAIN-KEYWORD,torch,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,nvidia,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,usenix,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-SUFFIX,wikia.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks-forum.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.ch,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.de,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.eu,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.lu,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.pl,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikilivres.info,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikimapia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikimedia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikinews.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikipedia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiquote.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikisource.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiwand.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiwiki.jp,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,yrut.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,thebyrut.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,firefox,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -8955,24 +9034,6 @@ rules:
   - DOMAIN-SUFFIX,whyx.org,🔰 选择节点
   - DOMAIN-SUFFIX,widevine.com,🔰 选择节点
   - DOMAIN-SUFFIX,wikaba.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikia.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks-forum.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.ch,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.de,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.eu,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.lu,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.pl,🔰 选择节点
-  - DOMAIN-SUFFIX,wikilivres.info,🔰 选择节点
-  - DOMAIN-SUFFIX,wikimapia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikimedia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikinews.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikipedia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiquote.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikisource.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiwand.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiwiki.jp,🔰 选择节点
   - DOMAIN-SUFFIX,wildammo.com,🔰 选择节点
   - DOMAIN-SUFFIX,williamhill.com,🔰 选择节点
   - DOMAIN-SUFFIX,willw.net,🔰 选择节点

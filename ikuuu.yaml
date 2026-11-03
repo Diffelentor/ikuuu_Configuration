@@ -8,8 +8,57 @@ dns:
     '*.seu.edu.cn': '172.19.2.1'
     'seu.edu.cn': '172.19.2.1'
 
+proxies:
+  - {name: 🇭🇰 香港Y01, server: z2ui7-g03.hk01-ae5.entry.v50708.dev, port: 19273, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y01, server: oozl0-g03.jp01-ae5.entry.v50708.dev, port: 474, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y02 | IEPL, server: z2u7b-g03.hk02-ae5.entry.v50708.dev, port: 14561, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y02 | IEPL, server: 9ngxb-g03.jp02-ae5.entry.v50708.dev, port: 484, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y03 | IEPL, server: odzw2-g03.hk03-ae5.entry.v50708.dev, port: 761, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y03 | IEPL, server: ktvff-g03.jp03-ae5.entry.v50708.dev, port: 489, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y04 | IEPL, server: amwjg-g03.hk04-ae5.entry.v50708.dev, port: 805, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y04 | IEPL, server: 0ebvv-g03.jp04-ae5.entry.v50708.dev, port: 494, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y05 | IEPL, server: ts5vg-g03.hk05-ae5.entry.v50708.dev, port: 1813, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y05 | 下载专用 | x0.01, server: ud0x0-g03.jp05-vm5.entry.rtysjur.quest, port: 64656, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y06 | x0.8, server: 4u9ad-g03.hk06-ae5.entry.v50708.dev, port: 1414, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y06 | 下载专用 | x0.01, server: dvlqt-g03.jp06-vm5.entry.rtysjur.quest, port: 664, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y07 | x0.8, server: 6wlie-g03.hk07-ae5.entry.v50708.dev, port: 1421, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y07 | x0.8, server: fo5iz-g03.jp07-ae5.entry.v50708.dev, port: 14006, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y08 | x0.8, server: ulix0-g03.hk08-ae5.entry.v50708.dev, port: 18644, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 日本Y08 | x0.8, server: 2zgf1-g03.jp08-ae5.entry.v50708.dev, port: 12544, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y09 | IEPL, server: yyiz9-g03.hk09-vm5.entry.v50708.dev, port: 15266, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本Y09 | IEPL, server: zcrhj-g03.jp09-ae5.entry.v50708.dev, port: 11159, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y10 | IEPL, server: c3eny-g03.hk10-vm5.entry.v50708.dev, port: 13484, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: speedtest-bgp-01-10.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y10 | IEPL, server: ki2fg-g03.jp10-ae5.entry.v50708.dev, port: 16525, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇭🇰 香港Y11 | IEPL, server: dp13y-g03.hk11-vm5.entry.v50708.dev, port: 576, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tutorial/iphone13.m3u8, headers: {Host: speedtest-bgp-01-11.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y11 | IEPL, server: u4nl8-g03.jp11-ae5.entry.v50708.dev, port: 17742, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇸🇬 新加坡Y01, server: nowb8-g03.sg01-ae5.entry.v50708.dev, port: 20001, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇸🇬 新加坡Y02, server: 9yq7o-g03.sg02-ae5.entry.v50708.dev, port: 20076, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇸🇬 新加坡Y03 | IEPL | x2, server: bf8aj-g03.sg03-ae5.entry.v50708.dev, port: 20081, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇨🇳 台湾Y01 | IEPL | x2, server: 6i90n-g03.tw01-ae5.entry.v50708.dev, port: 20006, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇺🇲 美国Y01, server: tvtrf-g03.us01-ae5.entry.v50708.dev, port: 20011, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇺🇲 美国Y02, server: nm87o-g03.us02-ae5.entry.v50708.dev, port: 20016, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇬🇧 英国Y01, server: tor70-g03.gb01-ae5.entry.v50708.dev, port: 20021, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇦🇷 阿根廷Y01, server: l7z11-g03.ar01-ae5.entry.v50708.dev, port: 20026, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇷🇺 俄罗斯Y01, server: k57gy-g03.ru01-ae5.entry.v50708.dev, port: 20031, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇹🇷 土耳其Y01, server: nbigx-g03.tr01-ae5.entry.v50708.dev, port: 20036, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇰🇷 韩国Y01, server: 1au1y-g03.kr01-ae5.entry.v50708.dev, port: 20041, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇮🇳 印度Y01, server: aewg8-g03.in01-ae5.entry.v50708.dev, port: 20046, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇩🇪 德国Y01, server: rnw5v-g03.de01-ae5.entry.v50708.dev, port: 20051, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇨🇦 加拿大Y01, server: hf2hp-g03.ca01-ae5.entry.v50708.dev, port: 20056, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇦🇺 澳大利亚Y01, server: tuofw-g03.au01-ae5.entry.v50708.dev, port: 20061, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇫🇷 法国Y01, server: io1ud-g03.fr01-ae5.entry.v50708.dev, port: 20066, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇺🇦 乌克兰Y01, server: 9qbtl-g03.ua01-ae5.entry.v50708.dev, port: 20071, type: ss, cipher: aes-256-gcm, password: ae1d720a-76c8-35f0-8051-054cea10640b, udp: true}
+  - {name: 🇯🇵 免费-日本1-Ver.7, server: l0sqn-g03.jp01-nn-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本2-Ver.8, server: svf7q-g03.jp02-e3-vm0.entry.fr0528.art, port: 11775, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本3-Ver.7, server: pkyqh-g03.jp03-j7-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本4-Ver.8, server: 93mji-g03.jp04-1d-vm0.entry.fr0528.art, port: 446, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本5-Ver.9, server: bxgbe-g03.jp05-h6-vm0.entry.fr0528.art, port: 46484, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本6-Ver.8, server: djubd-g03.jp06-jz-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 免费-日本7-Ver.2, server: pflya-g03.jp07-sh-vm0.entry.fr0528.art, port: 28785, type: vmess, uuid: ae1d720a-76c8-35f0-8051-054cea10640b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: MajsoulLocal, port: 23410,  server: 127.0.0.1,  tls: true,  type: http, skip-cert-verify: true }
+  - {name: Majsoulakagi, port: 7880, server: 127.0.0.1, tls: true, type: http, skip-cert-verify: true }
 proxy-groups:
-  - name: 🔰 选择节点
+  - name: 🔰 常用
     type: select
     proxies:     
       - 🇭🇰 香港Y01
@@ -25,6 +74,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -51,9 +101,54 @@ proxy-groups:
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
       - DIRECT
+  - name: 🔰 选择节点
+    type: select
+    proxies:    
+      - 🔰 常用 
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
   - name: 🌏 爱奇艺&哔哩哔哩
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🇭🇰 香港Y01
       - 🇭🇰 香港Y02 | IEPL
@@ -70,6 +165,7 @@ proxy-groups:
   - name: 🐝蜜柑&Anime
     type: select
     proxies:
+      - 🔰 常用
       - 🇭🇰 香港Y01
       - 🇭🇰 香港Y02 | IEPL
       - 🇭🇰 香港Y03 | IEPL
@@ -85,6 +181,7 @@ proxy-groups:
   - name: 🐝 H
     type: select
     proxies:
+      - 🔰 常用
       - 🇭🇰 香港Y01
       - 🇭🇰 香港Y02 | IEPL
       - 🇭🇰 香港Y03 | IEPL
@@ -132,6 +229,7 @@ proxy-groups:
   - name: 🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -147,6 +245,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -175,6 +274,7 @@ proxy-groups:
   - name: 🔍 科研&Rust&Jetbrains&Debian&Conda
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -190,6 +290,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -215,9 +316,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚Y01
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
-  - name: 🔍 GPT&Grok&Gemini&Dify
+  - name: 🔍 GPT&Grok&Gemini&Dify&Claude
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -233,6 +335,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -267,6 +370,7 @@ proxy-groups:
   - name: 🎮 Steam 登录/下载
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -282,6 +386,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -310,6 +415,7 @@ proxy-groups:
   - name: 🎮 Steam 商店/社区
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -325,6 +431,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -353,6 +460,7 @@ proxy-groups:
   - name: 🎮 Epic
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -368,6 +476,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -396,6 +505,7 @@ proxy-groups:
   - name: 🎮 Parsec
     type: select
     proxies:
+      - 🔰 常用
       - DIRECT
       - 🔰 选择节点
       - 🇭🇰 香港Y01
@@ -411,6 +521,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -436,6 +547,50 @@ proxy-groups:
       - 🇦🇺 澳大利亚Y01
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
+  - name: 🀄 雀魂麻将
+    type: select
+    proxies:
+        - MajsoulLocal
+        - DIRECT
+        - 🇭🇰 香港Y01
+        - 🇯🇵 日本Y01
+        - 🇭🇰 香港Y02 | IEPL
+        - 🇯🇵 日本Y02 | IEPL
+        - 🇭🇰 香港Y03 | IEPL
+        - 🇯🇵 日本Y03 | IEPL
+        - 🇭🇰 香港Y04 | IEPL
+        - 🇯🇵 日本Y04 | IEPL
+        - 🇭🇰 香港Y05 | IEPL
+        - 🇯🇵 日本Y05 | 下载专用 | x0.01
+        - 🇭🇰 香港Y06 | x0.8
+        - 🇯🇵 日本Y06 | 下载专用 | x0.01
+        - 🇭🇰 香港Y07 | x0.8
+        - 🇯🇵 日本Y07 | x0.8
+        - 🇭🇰 香港Y08 | x0.8
+        - 🇯🇵 日本Y08 | x0.8
+        - 🇭🇰 香港Y09 | IEPL
+        - 🇯🇵 日本Y09 | IEPL
+        - 🇭🇰 香港Y10 | IEPL
+        - 🇯🇵 日本Y10 | IEPL
+        - 🇭🇰 香港Y11 | IEPL
+        - 🇯🇵 日本Y11 | IEPL
+        - 🇸🇬 新加坡Y01
+        - 🇸🇬 新加坡Y02
+        - 🇸🇬 新加坡Y03 | IEPL | x2
+        - 🇨🇳 台湾Y01 | IEPL | x2
+        - 🇺🇲 美国Y01
+        - 🇺🇲 美国Y02
+        - 🇬🇧 英国Y01
+        - 🇦🇷 阿根廷Y01
+        - 🇷🇺 俄罗斯Y01
+        - 🇹🇷 土耳其Y01
+        - 🇰🇷 韩国Y01
+        - 🇮🇳 印度Y01
+        - 🇩🇪 德国Y01
+        - 🇨🇦 加拿大Y01
+        - 🇦🇺 澳大利亚Y01
+        - 🇫🇷 法国Y01
+        - 🇺🇦 乌克兰Y01
   - name: 🌩️ Cloudflare
     type: select
     proxies:
@@ -459,6 +614,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -502,6 +658,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -545,6 +702,51 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | IEPL
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇸🇬 新加坡Y03 | IEPL | x2
+      - 🇨🇳 台湾Y01 | IEPL | x2
+      - 🇺🇲 美国Y01
+      - 🇺🇲 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+  - name: 🇯🇵 日本网站
+    type: select
+    proxies:
+      - 🔰 选择节点
+      - DIRECT
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -599,6 +801,7 @@ proxy-groups:
       - 🇭🇰 香港Y06 | x0.8
       - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
       - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
@@ -625,11 +828,17 @@ proxy-groups:
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
 rules:
+  - DOMAIN,game.maj-soul.com,🀄 雀魂麻将
+  - PROCESS-NAME,雀魂麻將,🀄 雀魂麻将
+  - PROCESS-NAME,jantama_mahjongsoul.exe,🀄 雀魂麻将
+  - PROCESS-NAME,Jantama_MahjongSoul.exe,🀄 雀魂麻将
+  - PROCESS-NAME,majsoul_max.exe,Majsoulakagi
   - DOMAIN,ssjj2-micro.ssjj.cn,🎮 生死狙击2
   - DOMAIN,log.ssjj.cn,🎮 生死狙击2
   - DOMAIN,u.ssjj.cn,🎮 生死狙击2
+  - PROCESS-NAME,parsec.exe,🎮 Parsec
+  - DOMAIN-SUFFIX,parsec.app,🎮 Parsec
   - DOMAIN-KEYWORD,parsec,🎮 Parsec
-  # - PROCESS-NAME,parsecd.exe,🎮 Parsec
   - DOMAIN-SUFFIX,chat.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live.bilibili.com,🇨🇳 国内网站
   - DOMAIN-SUFFIX,live-trace.bilibili.com,🇨🇳 国内网站
@@ -666,7 +875,9 @@ rules:
   - DOMAIN-SUFFIX,2dfan.com,🐝 H
   - DOMAIN-SUFFIX,seiya-saiga.com,🐝 H
   - DOMAIN-SUFFIX,dlgal.com,🐝 H
-  
+  - DOMAIN-SUFFIX,18comic.vip,🐝 H
+  - DOMAIN-KEYWORD,dmm,🇯🇵 日本网站
+  - DOMAIN-KEYWORD,dlsoft,🇯🇵 日本网站
   - DOMAIN,app.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,grpc.biliapi.net,🌏 爱奇艺&哔哩哔哩
   - DOMAIN,p-bstarstatic.akamaized.net,🌏 爱奇艺&哔哩哔哩
@@ -704,12 +915,14 @@ rules:
   - DOMAIN-KEYWORD,arxiv,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,thecvf,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,z-library,🔍 科研&Rust&Jetbrains&Debian&Conda
-  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT&Grok&Gemini&Dify
-  - DOMAIN-SUFFIX,openai.com,🔍 GPT&Grok&Gemini&Dify
-  - DOMAIN-SUFFIX,grok.com,🔍 GPT&Grok&Gemini&Dify
-  - DOMAIN-SUFFIX,x.ai,🔍 GPT&Grok&Gemini&Dify
-  - DOMAIN-SUFFIX,gemini.google.com,🔍 GPT&Grok&Gemini&Dify
-  - DOMAIN-KEYWORD,dify,🔍 GPT&Grok&Gemini&Dify
+  - DOMAIN-SUFFIX,chatgpt.com,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-SUFFIX,openai.com,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-SUFFIX,grok.com,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-SUFFIX,x.ai,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-SUFFIX,gemini.google.com,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-KEYWORD,dify,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-KEYWORD,claude,🔍 GPT&Grok&Gemini&Dify&Claude
+  - DOMAIN-SUFFIX,anthropic.com,🔍 GPT&Grok&Gemini&Dify&Claude
   - DOMAIN-SUFFIX,huggingface.co,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-SUFFIX,crates.io,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-SUFFIX,rust-lang.org,🔍 科研&Rust&Jetbrains&Debian&Conda
@@ -720,6 +933,28 @@ rules:
   - DOMAIN-KEYWORD,torch,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,nvidia,🔍 科研&Rust&Jetbrains&Debian&Conda
   - DOMAIN-KEYWORD,usenix,🔍 科研&Rust&Jetbrains&Debian&Conda
+  - DOMAIN-KEYWORD,ykkk,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-KEYWORD,mjai,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikia.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks-forum.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.ch,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.de,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.eu,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.lu,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikileaks.pl,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikilivres.info,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikimapia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikimedia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikinews.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikipedia.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiquote.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikisource.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiwand.com,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,wikiwiki.jp,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,yrut.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
+  - DOMAIN-SUFFIX,thebyrut.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,firefox,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-SUFFIX,addons.mozilla.org,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
   - DOMAIN-KEYWORD,soop,🔰 个人常用 TikTok&YouTube&GitHub&Discord&Google&Telegram&Twitter&Facebook&Twitch&Pixiv&Netflix
@@ -8955,24 +9190,6 @@ rules:
   - DOMAIN-SUFFIX,whyx.org,🔰 选择节点
   - DOMAIN-SUFFIX,widevine.com,🔰 选择节点
   - DOMAIN-SUFFIX,wikaba.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikia.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks-forum.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.ch,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.de,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.eu,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.lu,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikileaks.pl,🔰 选择节点
-  - DOMAIN-SUFFIX,wikilivres.info,🔰 选择节点
-  - DOMAIN-SUFFIX,wikimapia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikimedia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikinews.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikipedia.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiquote.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikisource.org,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiwand.com,🔰 选择节点
-  - DOMAIN-SUFFIX,wikiwiki.jp,🔰 选择节点
   - DOMAIN-SUFFIX,wildammo.com,🔰 选择节点
   - DOMAIN-SUFFIX,williamhill.com,🔰 选择节点
   - DOMAIN-SUFFIX,willw.net,🔰 选择节点

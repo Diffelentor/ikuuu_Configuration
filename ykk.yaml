@@ -8,7 +8,6 @@ proxy-groups:
     - { name: Media, type: select, proxies: [DIRECT, YKKCLOUD], include-all-proxies: true, icon: 🐝 }
     - { name: 科研, type: select, proxies: [DIRECT, YKKCLOUD], include-all-proxies: true, icon: 🔍 }
     - { name: 动画疯, type: select, proxies: [YKKCLOUD], include-all-proxies: true, icon: 📺 }
-    - { name: Bilibili, type: select, proxies: [DIRECT, YKKCLOUD], include-all-proxies: true, icon: 'https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Bilibili.png' }
     - { name: Netflix, type: select, proxies: [YKKCLOUD, '🇸🇬 Singapore 05 | MITM'], icon: 'https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Netflix.png' }
     - { name: Disney, type: select, proxies: [YKKCLOUD, '🇸🇬 Singapore 05 | MITM'], icon: 'https://www.naiixi.com/DisneyPlus.png' }
     - { name: Pornhub, type: select, proxies: [YKKCLOUD], include-all-proxies: true }
@@ -258,10 +257,11 @@ rules:
     # - DOMAIN-SUFFIX,biliimg.com,DIRECT
 
     # 网页、账号、评论及其他业务接口走节点
-    # - DOMAIN-SUFFIX,bilibili.com,Bilibili
-    # - DOMAIN-SUFFIX,biliapi.com,Bilibili
-    # - DOMAIN-SUFFIX,biliapi.net,Bilibili
-    - DOMAIN-SUFFIX,api.bilibili.com,Bilibili
+    # - DOMAIN-SUFFIX,bilibili.com,Media
+    # - DOMAIN-SUFFIX,biliapi.com,Media
+    # - DOMAIN-SUFFIX,biliapi.net,Media
+    - DOMAIN,grpc.biliapi.net,Media
+    - DOMAIN-SUFFIX,api.bilibili.com,Media
     - DOMAIN-SUFFIX,bilibili.com,DIRECT
     # - DOMAIN-SUFFIX,chat.bilibili.com,DIRECT
     # - DOMAIN-SUFFIX,live.bilibili.com,DIRECT
@@ -281,6 +281,7 @@ rules:
     - DOMAIN,danmu.yhdmjx.com,Media
     - DOMAIN-KEYWORD,moegirl,Media
     - DOMAIN-KEYWORD,torrent,Media
+    - DOMAIN-KEYWORD,tinder,Media
     # - DOMAIN-SUFFIX,madou.io,Pornhub
     - DOMAIN-SUFFIX,sukebei.nyaa.si,Pornhub
     - DOMAIN-SUFFIX,pornhub.com,Pornhub
@@ -351,7 +352,7 @@ rules:
     - RULE-SET,Twitch,Media
     - RULE-SET,Pixiv,Media
 
-    # - DOMAIN-SUFFIX,bilibili.com,Bilibili
+    # - DOMAIN-SUFFIX,bilibili.com,Media
     # - RULE-SET,BiliBili,DIRECT
     # AdBlock
     - RULE-SET,HTTPDNS,REJECT

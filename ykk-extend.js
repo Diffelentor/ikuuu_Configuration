@@ -46,16 +46,6 @@ const ykk = {
       "icon": "📺"
     },
     {
-      "name": "Bilibili",
-      "type": "select",
-      "proxies": [
-        "DIRECT",
-        "YKKCLOUD"
-      ],
-      "include-all-proxies": true,
-      "icon": "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Bilibili.png"
-    },
-    {
       "name": "Netflix",
       "type": "select",
       "proxies": [
@@ -341,7 +331,8 @@ const ykk = {
     "DOMAIN-SUFFIX,chat.bilibili.com,DIRECT",
     "DOMAIN-SUFFIX,live.bilibili.com,DIRECT",
     "DOMAIN-SUFFIX,live-trace.bilibili.com,DIRECT",
-    "DOMAIN-SUFFIX,api.bilibili.com,Bilibili",
+    "DOMAIN,grpc.biliapi.net,Media",
+    "DOMAIN-SUFFIX,api.bilibili.com,Media",
     "DOMAIN-SUFFIX,bilibili.com,DIRECT",
     "DOMAIN-SUFFIX,gateway.oopz.cn,Media",
     "DOMAIN-SUFFIX,cbhfox.com,Media",
@@ -355,6 +346,7 @@ const ykk = {
     "DOMAIN,danmu.yhdmjx.com,Media",
     "DOMAIN-KEYWORD,moegirl,Media",
     "DOMAIN-KEYWORD,torrent,Media",
+    "DOMAIN-KEYWORD,tinder,Media",
     "DOMAIN-SUFFIX,sukebei.nyaa.si,Pornhub",
     "DOMAIN-SUFFIX,pornhub.com,Pornhub",
     "DOMAIN-SUFFIX,hanime1.me,Pornhub",

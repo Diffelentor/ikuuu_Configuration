@@ -24,7 +24,7 @@ const ykk = {
         "YKKCLOUD"
       ],
       "include-all-proxies": true,
-      "icon": "🐝"
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
     },
     {
       "name": "科研",
@@ -34,7 +34,7 @@ const ykk = {
         "YKKCLOUD"
       ],
       "include-all-proxies": true,
-      "icon": "🔍"
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png"
     },
     {
       "name": "动画疯",
@@ -43,7 +43,7 @@ const ykk = {
         "YKKCLOUD"
       ],
       "include-all-proxies": true,
-      "icon": "📺"
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png"
     },
     {
       "name": "Netflix",
@@ -69,7 +69,8 @@ const ykk = {
       "proxies": [
         "YKKCLOUD"
       ],
-      "include-all-proxies": true
+      "include-all-proxies": true,
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png"
     },
     {
       "name": "Telegram",
@@ -91,7 +92,7 @@ const ykk = {
         "YKKCLOUD"
       ],
       "include-all-proxies": true,
-      "icon": "🐟"
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
     },
     {
       "name": "故障转移",
@@ -104,7 +105,8 @@ const ykk = {
       ],
       "include-all-proxies": true,
       "url": "http://www.gstatic.com/generate_204",
-      "interval": 7200
+      "interval": 7200,
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png"
     }
   ],
   "providers": {
@@ -318,6 +320,13 @@ const ykk = {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml",
       "interval": 86400
     },
+    "XiaoHongShu": {
+      "type": "http",
+      "behavior": "classical",
+      "path": "./Provider/RuleSet/Media/XiaoHongShu.yaml",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu.yaml",
+      "interval": 86400
+    },
     "BiliBili": {
       "type": "http",
       "behavior": "classical",
@@ -347,6 +356,14 @@ const ykk = {
     "DOMAIN-KEYWORD,moegirl,Media",
     "DOMAIN-KEYWORD,torrent,Media",
     "DOMAIN-KEYWORD,tinder,Media",
+    "DOMAIN-SUFFIX,addons.mozilla.org,Media",
+    "DOMAIN-KEYWORD,soop,Media",
+    "DOMAIN-SUFFIX,bitsearch.to,Media",
+    "DOMAIN-SUFFIX,btdig.com,Media",
+    "DOMAIN-KEYWORD,nexus,Media",
+    "DOMAIN-KEYWORD,north,Media",
+    "DOMAIN-KEYWORD,south,Media",
+    "DOMAIN-KEYWORD,ikuuu,Media",
     "DOMAIN-SUFFIX,sukebei.nyaa.si,Pornhub",
     "DOMAIN-SUFFIX,pornhub.com,Pornhub",
     "DOMAIN-SUFFIX,hanime1.me,Pornhub",
@@ -362,6 +379,9 @@ const ykk = {
     "DOMAIN-SUFFIX,wikawika.xyz,Pornhub",
     "DOMAIN-KEYWORD,jrants,Pornhub",
     "DOMAIN-KEYWORD,misskon,Pornhub",
+    "DOMAIN-KEYWORD,dmm,Pornhub",
+    "DOMAIN-KEYWORD,dlsoft,Pornhub",
+    "DOMAIN-SUFFIX,phncdn.com,DIRECT",
     "DOMAIN-KEYWORD,madou,Pornhub",
     "DOMAIN-SUFFIX,ggbases.com,Pornhub",
     "DOMAIN-SUFFIX,asmrgay.com,Pornhub",
@@ -400,6 +420,7 @@ const ykk = {
     "DOMAIN-KEYWORD,torch,科研",
     "DOMAIN-KEYWORD,nvidia,科研",
     "DOMAIN-KEYWORD,usenix,科研",
+    "RULE-SET,XiaoHongShu,Media",
     "RULE-SET,Gemini,科研",
     "RULE-SET,YouTube,Media",
     "RULE-SET,Google,科研",

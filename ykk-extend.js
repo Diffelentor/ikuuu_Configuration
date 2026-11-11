@@ -46,6 +46,13 @@ const ykk = {
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png"
     },
     {
+      "name": "Steam",
+      "type": "select",
+      "proxies": ["YKKCLOUD", "DIRECT"],
+      "include-all-proxies": true,
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png"
+    },
+    {
       "name": "Netflix",
       "type": "select",
       "proxies": [
@@ -327,6 +334,27 @@ const ykk = {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu/XiaoHongShu.yaml",
       "interval": 86400
     },
+    "SteamCN": {
+      "type": "http",
+      "behavior": "classical",
+      "path": "./Provider/RuleSet/Game/SteamCN.yaml",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml",
+      "interval": 86400
+    },
+    "Steam": {
+      "type": "http",
+      "behavior": "classical",
+      "path": "./Provider/RuleSet/Game/Steam.yaml",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml",
+      "interval": 86400
+    },
+    "Nvidia": {
+      "type": "http",
+      "behavior": "classical",
+      "path": "./Provider/RuleSet/Game/Nvidia.yaml",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.yaml",
+      "interval": 86400
+    },
     "BiliBili": {
       "type": "http",
       "behavior": "classical",
@@ -418,6 +446,7 @@ const ykk = {
     "DOMAIN-KEYWORD,ubuntu,科研",
     "DOMAIN-KEYWORD,conda,科研",
     "DOMAIN-KEYWORD,torch,科研",
+    "RULE-SET,Nvidia,科研",
     "DOMAIN-KEYWORD,nvidia,科研",
     "DOMAIN-KEYWORD,usenix,科研",
     "RULE-SET,XiaoHongShu,Media",
@@ -479,6 +508,27 @@ const ykk = {
     "DOMAIN-SUFFIX,steamchina.com,DIRECT",
     "DOMAIN-SUFFIX,steamcontent.com,DIRECT",
     "DOMAIN-SUFFIX,steamusercontent.com,DIRECT",
+    "DOMAIN-KEYWORD,steampipe,DIRECT",
+    "DOMAIN-KEYWORD,steamcontent,DIRECT",
+    "RULE-SET,SteamCN,DIRECT",
+    "RULE-SET,Steam,Steam",
+    "DOMAIN,steambroadcast.akamaized.net,Steam",
+    "DOMAIN,steamcdn-a.akamaihd.net,Steam",
+    "DOMAIN,steamcommunity-a.akamaihd.net,Steam",
+    "DOMAIN,steamstore-a.akamaihd.net,Steam",
+    "DOMAIN,steamusercontent-a.akamaihd.net,Steam",
+    "DOMAIN,steamuserimages-a.akamaihd.net,Steam",
+    "DOMAIN-SUFFIX,fanatical.com,Steam",
+    "DOMAIN-SUFFIX,humblebundle.com,Steam",
+    "DOMAIN-SUFFIX,playartifact.com,Steam",
+    "DOMAIN-SUFFIX,steam-chat.com,Steam",
+    "DOMAIN-SUFFIX,steamcommunity.com,Steam",
+    "DOMAIN-SUFFIX,steamgames.com,Steam",
+    "DOMAIN-SUFFIX,steampowered.com,Steam",
+    "DOMAIN-SUFFIX,steamstat.us,Steam",
+    "DOMAIN-SUFFIX,steamstatic.com,Steam",
+    "DOMAIN-SUFFIX,underlords.com,Steam",
+    "DOMAIN-SUFFIX,valvesoftware.com,Steam",
     "DOMAIN-SUFFIX,battlebreakers.com,DIRECT",
     "DOMAIN-SUFFIX,eac-cdn.com,DIRECT",
     "DOMAIN-SUFFIX,easy.ac,DIRECT",
@@ -1147,7 +1197,6 @@ const ykk = {
     "DOMAIN-SUFFIX,stackoverflow.com,YKKCLOUD",
     "DOMAIN-SUFFIX,startpage.com,YKKCLOUD",
     "DOMAIN-SUFFIX,staticflickr.com,YKKCLOUD",
-    "DOMAIN-SUFFIX,steamcommunity.com,YKKCLOUD",
     "DOMAIN-SUFFIX,symauth.com,YKKCLOUD",
     "DOMAIN-SUFFIX,symcb.com,YKKCLOUD",
     "DOMAIN-SUFFIX,symcd.com,YKKCLOUD",

@@ -7,11 +7,19 @@ const ykk = {
   },
   "groups": [
     {
+      "name": "US",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(美国|美國|united[ -]?states|🇺🇸|🇺🇲|(^|[^a-z])us([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"
+    },
+    {
       "name": "YKKCLOUD",
       "type": "select",
       "proxies": [
         "故障转移",
-        "DIRECT"
+        "DIRECT",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://b2.jpgcdn.com/2024/06/17/Njol.png"
@@ -21,17 +29,26 @@ const ykk = {
       "type": "select",
       "proxies": [
         "DIRECT",
-        "YKKCLOUD"
+        "YKKCLOUD",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
+    },
+    {
+      "name": "TikTok",
+      "type": "select",
+      "proxies": ["YKKCLOUD", "DIRECT", "US"],
+      "include-all-proxies": true,
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png"
     },
     {
       "name": "科研",
       "type": "select",
       "proxies": [
         "DIRECT",
-        "YKKCLOUD"
+        "YKKCLOUD",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png"
@@ -40,7 +57,8 @@ const ykk = {
       "name": "动画疯",
       "type": "select",
       "proxies": [
-        "YKKCLOUD"
+        "YKKCLOUD",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png"
@@ -48,7 +66,7 @@ const ykk = {
     {
       "name": "Steam",
       "type": "select",
-      "proxies": ["YKKCLOUD", "DIRECT"],
+      "proxies": ["YKKCLOUD", "DIRECT", "US"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png"
     },
@@ -57,7 +75,8 @@ const ykk = {
       "type": "select",
       "proxies": [
         "YKKCLOUD",
-        "🇸🇬 Singapore 05 | MITM"
+        "🇸🇬 Singapore 05 | MITM",
+        "US"
       ],
       "icon": "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Netflix.png"
     },
@@ -66,7 +85,8 @@ const ykk = {
       "type": "select",
       "proxies": [
         "YKKCLOUD",
-        "🇸🇬 Singapore 05 | MITM"
+        "🇸🇬 Singapore 05 | MITM",
+        "US"
       ],
       "icon": "https://www.naiixi.com/DisneyPlus.png"
     },
@@ -74,7 +94,8 @@ const ykk = {
       "name": "Pornhub",
       "type": "select",
       "proxies": [
-        "YKKCLOUD"
+        "YKKCLOUD",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png"
@@ -87,7 +108,8 @@ const ykk = {
         "🇸🇬 Singapore 05 | MITM",
         "[BETA-1] 🇭🇰 HongKong [0.1x]",
         "[BETA-2] 🇭🇰 HongKong [0.1x]",
-        "[BETA-3] 🇭🇰 HongKong [0.1x]"
+        "[BETA-3] 🇭🇰 HongKong [0.1x]",
+        "US"
       ],
       "icon": "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Telegram.png"
     },
@@ -96,7 +118,8 @@ const ykk = {
       "type": "select",
       "proxies": [
         "DIRECT",
-        "YKKCLOUD"
+        "YKKCLOUD",
+        "US"
       ],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
@@ -456,7 +479,7 @@ const ykk = {
     "RULE-SET,OpenAI,科研",
     "RULE-SET,GoogGoogleDrivele,科研",
     "RULE-SET,GitHub,科研",
-    "RULE-SET,TikTok,Media",
+    "RULE-SET,TikTok,TikTok",
     "RULE-SET,Discord,Media",
     "RULE-SET,Twitter,Media",
     "RULE-SET,Wikipedia,科研",

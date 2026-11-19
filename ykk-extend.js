@@ -7,20 +7,13 @@ const ykk = {
   },
   "groups": [
     {
-      "name": "US",
-      "type": "select",
-      "include-all-proxies": true,
-      "filter": "(?i)(美国|美國|united[ -]?states|🇺🇸|🇺🇲|(^|[^a-z])us([^a-z]|$))",
-      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"
-    },
-    {
       "name": "YKKCLOUD",
       "type": "select",
       "proxies": [
         "故障转移",
         "DIRECT",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://b2.jpgcdn.com/2024/06/17/Njol.png"
     },
@@ -31,14 +24,14 @@ const ykk = {
         "DIRECT",
         "YKKCLOUD",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
     },
     {
       "name": "TikTok",
       "type": "select",
-      "proxies": ["YKKCLOUD", "DIRECT", "US"],
+      "proxies": ["YKKCLOUD", "DIRECT", "US","HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png"
     },
@@ -49,9 +42,16 @@ const ykk = {
         "DIRECT",
         "YKKCLOUD",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Lab.png"
+    },
+    {
+      "name": "AI",
+      "type": "select",
+      "proxies": ["YKKCLOUD", "DIRECT", "US", "HK", "TW", "JP", "SG"],
+      "include-all-proxies": true,
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png"
     },
     {
       "name": "动画疯",
@@ -59,14 +59,14 @@ const ykk = {
       "proxies": [
         "YKKCLOUD",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png"
     },
     {
       "name": "Steam",
       "type": "select",
-      "proxies": ["YKKCLOUD", "DIRECT", "US"],
+      "proxies": ["YKKCLOUD", "DIRECT", "US","HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Steam.png"
     },
@@ -77,7 +77,7 @@ const ykk = {
         "YKKCLOUD",
         "🇸🇬 Singapore 05 | MITM",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "icon": "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Netflix.png"
     },
     {
@@ -87,7 +87,7 @@ const ykk = {
         "YKKCLOUD",
         "🇸🇬 Singapore 05 | MITM",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "icon": "https://www.naiixi.com/DisneyPlus.png"
     },
     {
@@ -96,7 +96,7 @@ const ykk = {
       "proxies": [
         "YKKCLOUD",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pornhub.png"
     },
@@ -109,7 +109,11 @@ const ykk = {
         "[BETA-1] 🇭🇰 HongKong [0.1x]",
         "[BETA-2] 🇭🇰 HongKong [0.1x]",
         "[BETA-3] 🇭🇰 HongKong [0.1x]",
-        "US"
+        "US",
+        "HK",
+        "TW",
+        "JP",
+        "SG"
       ],
       "icon": "https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Icons/Telegram.png"
     },
@@ -120,7 +124,7 @@ const ykk = {
         "DIRECT",
         "YKKCLOUD",
         "US"
-      ],
+      ,"HK","TW","JP","SG"],
       "include-all-proxies": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
     },
@@ -137,6 +141,41 @@ const ykk = {
       "url": "http://www.gstatic.com/generate_204",
       "interval": 7200,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png"
+    },
+    {
+      "name": "US",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(美国|美國|united[ -]?states|🇺🇸|🇺🇲|(^|[^a-z])us([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"
+    },
+    {
+      "name": "HK",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(香港|港|hong[ -]?kong|🇭🇰|(^|[^a-z])hk([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png"
+    },
+    {
+      "name": "TW",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(台湾|台灣|台|taiwan|🇹🇼|🇨🇳|(^|[^a-z])tw([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png"
+    },
+    {
+      "name": "JP",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(日本|日|japan|🇯🇵|(^|[^a-z])jp([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png"
+    },
+    {
+      "name": "SG",
+      "type": "select",
+      "include-all-proxies": true,
+      "filter": "(?i)(新加坡|狮城|singapore|🇸🇬|(^|[^a-z])sg([^a-z]|$))",
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png"
     }
   ],
   "providers": {
@@ -350,6 +389,8 @@ const ykk = {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml",
       "interval": 86400
     },
+    "Claude": {"type":"http","behavior":"classical","path":"./Provider/RuleSet/AI/Claude.yaml","url":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml","interval":86400},
+    "Grok": {"type":"http","behavior":"classical","path":"./Provider/RuleSet/AI/Grok.yaml","url":"https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/master/Grok/Grok.yaml","interval":86400},
     "XiaoHongShu": {
       "type": "http",
       "behavior": "classical",
@@ -453,14 +494,14 @@ const ykk = {
     "DOMAIN-KEYWORD,arxiv,科研",
     "DOMAIN-KEYWORD,thecvf,科研",
     "DOMAIN-KEYWORD,z-library,科研",
-    "DOMAIN-SUFFIX,chatgpt.com,科研",
-    "DOMAIN-SUFFIX,openai.com,科研",
-    "DOMAIN-SUFFIX,grok.com,科研",
-    "DOMAIN-SUFFIX,x.ai,科研",
-    "DOMAIN-SUFFIX,gemini.google.com,科研",
+    "DOMAIN-SUFFIX,chatgpt.com,AI",
+    "DOMAIN-SUFFIX,openai.com,AI",
+    "DOMAIN-SUFFIX,grok.com,AI",
+    "DOMAIN-SUFFIX,x.ai,AI",
+    "DOMAIN-SUFFIX,gemini.google.com,AI",
     "DOMAIN-KEYWORD,dify,科研",
-    "DOMAIN-KEYWORD,claude,科研",
-    "DOMAIN-SUFFIX,anthropic.com,科研",
+    "DOMAIN-KEYWORD,claude,AI",
+    "DOMAIN-SUFFIX,anthropic.com,AI",
     "DOMAIN-SUFFIX,huggingface.co,科研",
     "DOMAIN-SUFFIX,crates.io,科研",
     "DOMAIN-SUFFIX,rust-lang.org,科研",
@@ -473,10 +514,12 @@ const ykk = {
     "DOMAIN-KEYWORD,nvidia,DIRECT",
     "DOMAIN-KEYWORD,usenix,科研",
     "RULE-SET,XiaoHongShu,Media",
-    "RULE-SET,Gemini,科研",
+    "RULE-SET,Gemini,AI",
     "RULE-SET,YouTube,Media",
     "RULE-SET,Google,科研",
-    "RULE-SET,OpenAI,科研",
+    "RULE-SET,OpenAI,AI",
+    "RULE-SET,Claude,AI",
+    "RULE-SET,Grok,AI",
     "RULE-SET,GoogGoogleDrivele,科研",
     "RULE-SET,GitHub,科研",
     "RULE-SET,TikTok,TikTok",
